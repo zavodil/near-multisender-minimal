@@ -3,7 +3,9 @@ multisend minimal
 ==================
 
 Команды:
+
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+
 sudo apt-get install -y nodejs
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
