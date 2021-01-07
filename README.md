@@ -2,6 +2,21 @@ multisend minimal
 Видеоурок: https://youtu.be/SJhJ1sKjCBI
 ==================
 
+Команды:
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+npx create-near-app multisend --frontend=react --contract=rust
+
+npm run dev
+
+rustup target install wasm32-unknown-unknown
+
+
+===========
+
 This [React] app was initialized with [create-near-app]
 
 
