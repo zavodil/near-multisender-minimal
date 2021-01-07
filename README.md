@@ -4,17 +4,17 @@ multisend minimal
 
 Команды:
 
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+`curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -`
 
-sudo apt-get install -y nodejs
+`sudo apt-get install -y nodejs`
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 
-npx create-near-app multisend --frontend=react --contract=rust
+`npx create-near-app multisend --frontend=react --contract=rust`
 
-npm run dev
+`npm run dev`
 
-rustup target install wasm32-unknown-unknown
+В случае ошибок: `rustup target install wasm32-unknown-unknown`
 
 
 ===========
